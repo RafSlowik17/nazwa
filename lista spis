@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="I"><li>Wprowadzenie</li> </ol>
+    <ol><li>Sładnia języka html </li></ol>
+<ul>
+    <ol type="a">
+    <li>Znaczniki i elementy</li>
+    <li>Struktura dokumentu HTML</li>
+    <li>Pierwsza strona WWW</li>
+</ul>
+ 
+ 
+<ol start="7"><li>Kaskadowe arkusze stylów </li></ol> 
+<ol type="a">
+    <li>Struktura i wygląd dokumentu</li>
+    <li>Struktura dokumentu HTML</li>
+
+</ol>
+    </ul>
+  
+
+</ol>
+</body>
+</html>

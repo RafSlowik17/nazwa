@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tytuł</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div >
+        <h1 class="lane1">To linijka <i class="linijka1">pierwsza</i> </h1>
+    </div>
+    <div>
+        <h2 class="lane2">To jest linijka  <i class="linijka2">druga</i> </h2>
+    </div>
+    <div>
+        <h3 class="lane3">To jest linijka <i class="linijka3">trzecia</i></h3>
+    </div>
+    <div>
+        <h3 class="lane4">To jest linijka <i class="linijka4">czwarta</i></h3>
+    </div>
+    <div id="piatka">
+        <h1 id="h1">To jest linijka <i id="i">piata</i></h1>
+    </div>
+    <div>
+        <h1 class="lane4">To jest linijka <i class="linijka1">szosta</i></h1>
+    </div>
+    <div>
+        <h2 class="lane3">To jest linijka <i class="linijka2">siodma</i></h2>
+    </div>
+    <div>
+        <h2 class="lane2">To jest linijka <i class="linijka3">osma</i></h2>
+    </div>
+    <div>
+        <h4 class="lane1">To jest linijka <i class="linijka4">dziewiata</i></h4>
+    </div>
+    <div>
+        <h2>10 zdanie</h2>
+    </div>
+
+    <div>
+        <ol>
+            <li>Pierwszy podpunkt</li>
+              <ol>
+                <li >Podpunkt A</li>
+                <li>Podpunkt B</li>
+              </ol>
+              <li>Drugi podpunkt</li>
+            </li>
+          </ol>
+    </div>
+    <div class="link">
+        Lacze  <a href="https://zsnr4.net/" > zsnr4</a>
+    </div>
+    
+</body>
+</html>
+
+Style.css
+.lane1{
+    text-align: center;
+     background-color: #c0c0c0;
+}
+.lane2{
+    text-align: center;
+     background-color: #ffff99;
+}
+.lane3{
+    text-align: right; 
+    background-color: #800000;
+}
+.lane4{
+    text-align: left;
+    background-color: #ff99ff;
+}
+.linijka1{
+    color: #00ff00;
+}
+.linijka2{
+    color: #00ffff;
+}
+.linijka3{
+    color: #808000;
+}
+.linijka4{
+    color: #0000ff;
+}
+#piatka{
+    background-color: #00ffff;
+}
+#h1{
+    color: #000080;
+    text-align: center;
+}
+#i{
+    color: #ffff00;
+}
+ol ol {
+    color: #008000;
+}
+a:link{background-color: #000080; 
+    color: #00ffff;
+}
+a:visited{
+    background-color: #00ffff;
+     color: #000080;
+}
+a:hover{
+    background-color: #ff0000;
+     color: #ffff00;
+      font-size: x-large;
+       font-style: italic;
+}
+a:active{
+    background-color: #000000;
+     color: #ffffff;
+}
+
+h1{
+    color: #ff0000;
+}
+h2{
+    color: #008000
+}
+h3{
+    color: #008080;
+}
+h4{
+    color: #800080;
+}
